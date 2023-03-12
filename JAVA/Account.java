@@ -7,4 +7,9 @@ class Account {
     String email;
     String password;
     String document;
+
+    public Account(String name, String document) {
+        this.name = name;
+        this.document = document;
+    }
 }

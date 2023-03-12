@@ -1,10 +1,10 @@
 class Account {
-    constructor(){
+    constructor(name, document){
         this.id
-        this.name
+        this.name = name
         this.lastName
         this.email
         this.password
-        this.document
+        this.document = document
     }
 }
